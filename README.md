@@ -102,7 +102,8 @@ Son matemática aplicada.
 - [16. Evaluación e Interpretabilidad de Modelos](#16-evaluación-e-interpretabilidad-de-modelos)
 - [17. Despliegue](#17-despliegue)
 - [18. Orquestación](#18-orquestación)
-- [19. Monitoreo](#19-monitoreo)
+- [19. Monitorización](#19-monitorización)
+
 
 375 Temas - 70 Categorias
 
@@ -736,11 +737,19 @@ Son matemática aplicada.
 
 -   MNIST (Modified National Institute of Standards and Technology): Conjunto de datos estándar de imágenes de dígitos escritos a mano, utilizado para entrenar y evaluar modelos de reconocimiento de imágenes. 
 
--   Tagged Data: Datos etiquetados manualmente con información adicional, como categorías o anotaciones, utilizados en tareas de aprendizaje supervisado.
+-   Tagged Data (Datos Etiquetados): Datos etiquetados manualmente con información adicional, como categorías o anotaciones, utilizados en tareas de aprendizaje supervisado.
+
+-   No Tagged Data (Datos No Etiquetados): Datos sin anotaciones ni categorías predefinidas; suelen emplearse en
+aprendizaje no supervisado para descubrir patrones o estructuras ocultas en los datos
+
+- Datos Estructurados: Datos organizados en un formato fijo (por ejemplo tablas con filas y
+columnas) que permiten su fácil acceso, consulta y análisis por parte de computadoras
+
+- Datos no Estructurados: Datos que no siguen un esquema predefinido ni formato tabular (por ejemplo texto libre, imágenes, vídeos); son más difíciles de analizar con herramientas tradicionales y requieren tecnologías especializadas para su procesamiento
 
 -   Instancias: Ejemplos individuales de datos en un conjunto, como filas en una tabla o puntos en un espacio de características.
 
--   Parámetro: Variable interna de un modelo que se ajusta durante el entrenamiento, como los pesos en una red neuronal. Categoría: 9. Machine Learning
+-   Parámetro: Variable interna de un modelo que se ajusta durante el entrenamiento, como los pesos en una red neuronal.
 
 
 ### 10.2. Transferencia y Generalización
@@ -986,6 +995,8 @@ Son matemática aplicada.
 
 -   Gradiente: Vector que indica la dirección y magnitud del cambio más rápido de una función, utilizado en algoritmos de optimización como el descenso de gradiente.
 
+-   Inferencia por Lotes: La inferencia por lotes se produce cuando la computadora toma una gran cantidad de datos, como imágenes o texto, y los analiza todos a la vez para ofrecer un conjunto de resultados. Este tipo de inferencia se usa a menudo para tareas como el análisis de datos, donde la velocidad del proceso de toma de decisiones no es tan crucial como la precisión de los resultados en sí.
+
 
 
 ## 11.9 Algoritmos y Frameworks de Deep Learning
@@ -1190,6 +1201,7 @@ Son matemática aplicada.
 -   Prefect: Herramienta de orquestación de flujos de trabajo que automatiza, programa y monitoriza pipelines de datos, optimizando procesos en Data Science y Gen AI Ops.
 
 
+
 ---
 
 
@@ -1200,6 +1212,20 @@ Son matemática aplicada.
 -   Model Drift Detection: Monitoreo continuo que identifica cuándo un modelo de ML deja de ser fiable debido a cambios en los datos o en el entorno.
 
 -   Model Monitoring: Supervisión en producción de métricas de rendimiento, latencia, uso de recursos y sesgos de los modelos de IA.
+
+-   Top Limit Rate: Límite superior de tasa que define el máximo de uso permitido (por ejemplo de una API) en un intervalo de tiempo específico, más allá del cual se bloquea o restringe el servicio.
+
+-   RPM (requests per minute): Límite de solicitudes por minuto; indica cuántas peticiones a la API se pueden realizar en cada minuto.
+
+-   RPD (requests per day): Límite de solicitudes por día; indica cuántas peticiones a la API se pueden realizar en un día.
+
+-   TPM (tokens per minute): Límite de tokens por minuto; cantidad total de tokens (unidades de texto) procesados por la API en un minuto.
+
+-   TPD (tokens per day): Límite de tokens por día; tokens procesados en un día.
+
+-   IPM (images per minute): Límite de imágenes por minuto; indica cuántas peticiones de generación o análisis de imágenes se pueden realizar en un minuto.
+
+-   Requests (solicitudes): Peticiones enviadas a una API o servicio; cada “request” es un mensaje que solicita una acción o respuesta de un servicio remoto.
 
 
 ---
