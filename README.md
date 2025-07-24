@@ -1,5 +1,4 @@
-# Handbook de Gen AI Ops, Data Engineer & Data Analysis & Data Science e Inteligencia Artificial
-
+# Handbook de DevOps & DataOps & MLOps & GenAIOps e Inteligencia-Artificial
 
 <p align="center">
   <img src="Imagenes/1.png" alt="Visual de Matemáticas en IA, Data y Ops"
