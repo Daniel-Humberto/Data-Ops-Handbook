@@ -43,66 +43,65 @@ Son matemática aplicada.
   - [3.5. Por Enfoque de Desarrollo](#35-por-enfoque-de-desarrollo)
 - [4. Conceptos Generales de Desarrollo de Software](#4-conceptos-generales-de-desarrollo-de-software)
 - [5. Operaciones de Despliegue Ops](#5-operaciones-de-despliegue-ops)
-- [6. Data Engineer](#6-data-engineer)
-  - [6.1. Bases de Datos](#61-bases-de-datos)
-  - [6.2. Infraestructura, y Plataformas](#62-infraestructura-y-plataformas)
-  - [6.3. Arquitecturas de Almacenamiento de Datos](#63-arquitecturas-de-almacenamiento-de-datos)
-  - [6.4. Preparación de Datos e Ingeniería de Características](#64-preparación-de-datos-e-ingeniería-de-características)
-  - [6.5. Metodologías y Procesos de Datos](#65-metodologías-y-procesos-de-datos)
-  - [6.6. Ingeniería, Orquestación y Gobernanza de Datos](#66-ingeniería-orquestación-y-gobernanza-de-datos)
-- [7. Data Analysis](#7-data-analysis)
-  - [7.1. Métricas de Rendimiento](#71-métricas-de-rendimiento)
-  - [7.2. Evaluación y Validación de Modelos](#72-evaluación-y-validación-de-modelos)
-  - [7.3. Análisis Exploratorio de Datos (EDA)](#73-análisis-exploratorio-de-datos-eda)
-  - [7.4. Preprocesamiento y Limpieza de Datos](#74-preprocesamiento-y-limpieza-de-datos)
-  - [7.5. Visualización de Resultados](#75-visualización-de-resultados)
-  - [7.6. Procesos y Herramientas](#76-procesos-y-herramientas)
-  - [7.7. Reporting y Comunicación](#77-reporting-y-comunicación)
-- [8. Data Science](#8-data-science)
-  - [8.1. Modelos de Regresión y Técnicas Paramétricas](#81-modelos-de-regresión-y-técnicas-paramétricas)
-  - [8.2. Métodos Bayesianos y Probabilísticos](#82-métodos-bayesianos-y-probabilísticos)
-  - [8.3. Técnicas de Optimización y Análisis Numérico](#83-técnicas-de-optimizacion-y-análisis-numérico)
-  - [8.4. Técnicas de Remuestreo y Reducción de Dimensionalidad](#84-técnicas-de-remuestreo-y-reducción-de-dimensionalidad)
-  - [8.5. Árboles, Ensambles y Métodos Avanzados de Clasificación](#85-árboles-ensambles-y-métodos-avanzados-de-clasificación)
-  - [8.6. Algoritmos de Asociación y Ranking](#86-algoritmos-de-asociación-y-ranking)
-  - [8.7. Validación, Generalización y Ensambles](#87-validación-generalización-y-ensambles)
-  - [8.8. Cambios en los Datos y su Distribución](#88-cambios-en-los-datos-y-su-distribución)
-  - [8.9. Preprocesamiento y Escalado de Datos](#89-preprocesamiento-y-escalado-de-datos)
-- [9. Machine Learning](#9-machine-learning)
-  - [9.2. Transferencia y Generalización](#92-transferencia-y-generalización)
-  - [9.3. Algoritmos de Clasificación Supervisada](#93-algoritmos-de-clasificación-supervisada)
-  - [9.4. Algoritmos de Regresión Supervisada](#94-algoritmos-de-regresión-supervisada)
-  - [9.5. Algoritmos de Agrupamiento (Clustering)](#95-algoritmos-de-agrupamiento-clustering)
-  - [9.6. Reducción de Dimensionalidad y Visualización](#96-reducción-de-dimensionalidad-y-visualización)
-  - [9.7. Redes Neuronales y Deep Learning](#97-redes-neuronales-y-deep-learning)
-  - [9.8. Modelos Generativos](#98-modelos-generativos)
-  - [9.9. Técnicas de Ensamble y Boosting](#99-técnicas-de-ensamble-y-boosting)
-  - [9.10. Técnicas de Regularización y Generalización](#910-técnicas-de-regularización-y-generalización)
-  - [9.11. Evaluación y Métricas](#911-evaluación-y-métricas)
-  - [9.12. Sistemas de Recomendación](#912-sistemas-de-recomendación)
-- [10. Deep Learning](#10-deep-learning)
-  - [10.2. Redes para Datos Secuenciales (RNNs)](#102-redes-para-datos-secuenciales-rnns)
-  - [10.3. Redes para Visión por Computadora](#103-redes-para-visión-por-computadora)
-  - [10.4. Aprendizaje en Secuencia y Lenguaje](#104-aprendizaje-en-secuencia-y-lenguaje)
-  - [10.5. Deep Reinforcement Learning](#105-deep-reinforcement-learning)
-  - [10.6. Modelos Generativos](#106-modelos-generativos)
-  - [10.7. Métricas de Evaluación en Deep Learning](#107-métricas-de-evaluación-en-deep-learning)
-  - [10.8. Optimización y Regularización](#108-optimizacion-y-regularización)
-  - [10.9. Algoritmos y Frameworks de Deep Learning](#109-algoritmos-y-frameworks-de-deep-learning)
-- [11. NLP y Large Language Models](#11-nlp-y-large-language-models)
-  - [11.1. Introducción a NLP y LLMs](#111-introducción-a-nlp-y-llms)
-  - [11.2. Frameworks a NLP y LLMs](#112-frameworks-a-nlp-y-llms)
-- [12. Frameworks de NLP, y Large Language Models](#12-frameworks-de-nlp-y-large-language-models)
-- [13. Servicios de AI en AWS](#13-servicios-de-ai-en-aws)
-- [14. Frameworks de Automatización](#13-frameworks-de-automatizacion)
-- [15. Evaluación e Interpretabilidad de Modelos](#14-evaluación-e-interpretabilidad-de-modelos)
-- [16. Despliegue](#15-despliegue)
-- [17. Orquestación](#16-orquestación)
-- [18. Monitoreo](#17-monitoreo)
-- [19. Servicios de AI en AWS](#18-servicios-de-ai-en-aws)
+- [6. Fundamentos Matemáticos](#6-fundamentos-matemáticos)
+- [7. Data Engineer](#6-data-engineer)
+  - [7.1. Bases de Datos](#61-bases-de-datos)
+  - [7.2. Infraestructura, y Plataformas](#62-infraestructura-y-plataformas)
+  - [7.3. Arquitecturas de Almacenamiento de Datos](#63-arquitecturas-de-almacenamiento-de-datos)
+  - [7.4. Preparación de Datos e Ingeniería de Características](#64-preparación-de-datos-e-ingeniería-de-características)
+  - [7.5. Metodologías y Procesos de Datos](#65-metodologías-y-procesos-de-datos)
+  - [7.6. Ingeniería, Orquestación y Gobernanza de Datos](#66-ingeniería-orquestación-y-gobernanza-de-datos)
+- [8. Data Analysis](#7-data-analysis)
+  - [8.1. Métricas de Rendimiento](#71-métricas-de-rendimiento)
+  - [8.2. Evaluación y Validación de Modelos](#72-evaluación-y-validación-de-modelos)
+  - [8.3. Análisis Exploratorio de Datos (EDA)](#73-análisis-exploratorio-de-datos-eda)
+  - [8.4. Preprocesamiento y Limpieza de Datos](#74-preprocesamiento-y-limpieza-de-datos)
+  - [8.5. Visualización de Resultados](#75-visualización-de-resultados)
+  - [8.6. Procesos y Herramientas](#76-procesos-y-herramientas)
+  - [8.7. Reporting y Comunicación](#77-reporting-y-comunicación)
+- [9. Data Science](#8-data-science)
+  - [9.1. Modelos de Regresión y Técnicas Paramétricas](#81-modelos-de-regresión-y-técnicas-paramétricas)
+  - [9.2. Métodos Bayesianos y Probabilísticos](#82-métodos-bayesianos-y-probabilísticos)
+  - [9.3. Técnicas de Optimización y Análisis Numérico](#83-técnicas-de-optimizacion-y-análisis-numérico)
+  - [9.4. Técnicas de Remuestreo y Reducción de Dimensionalidad](#84-técnicas-de-remuestreo-y-reducción-de-dimensionalidad)
+  - [9.5. Árboles, Ensambles y Métodos Avanzados de Clasificación](#85-árboles-ensambles-y-métodos-avanzados-de-clasificación)
+  - [9.6. Algoritmos de Asociación y Ranking](#86-algoritmos-de-asociación-y-ranking)
+  - [9.7. Validación, Generalización y Ensambles](#87-validación-generalización-y-ensambles)
+  - [9.8. Cambios en los Datos y su Distribución](#88-cambios-en-los-datos-y-su-distribución)
+  - [9.9. Preprocesamiento y Escalado de Datos](#89-preprocesamiento-y-escalado-de-datos)
+- [10. Machine Learning](#9-machine-learning)
+  - [10.2. Transferencia y Generalización](#92-transferencia-y-generalización)
+  - [10.3. Algoritmos de Clasificación Supervisada](#93-algoritmos-de-clasificación-supervisada)
+  - [10.4. Algoritmos de Regresión Supervisada](#94-algoritmos-de-regresión-supervisada)
+  - [10.5. Algoritmos de Agrupamiento (Clustering)](#95-algoritmos-de-agrupamiento-clustering)
+  - [10.6. Reducción de Dimensionalidad y Visualización](#96-reducción-de-dimensionalidad-y-visualización)
+  - [10.7. Redes Neuronales y Deep Learning](#97-redes-neuronales-y-deep-learning)
+  - [10.8. Modelos Generativos](#98-modelos-generativos)
+  - [10.9. Técnicas de Ensamble y Boosting](#99-técnicas-de-ensamble-y-boosting)
+  - [10.10. Técnicas de Regularización y Generalización](#910-técnicas-de-regularización-y-generalización)
+  - [10.11. Evaluación y Métricas](#911-evaluación-y-métricas)
+  - [10.12. Sistemas de Recomendación](#912-sistemas-de-recomendación)
+- [11. Deep Learning](#10-deep-learning)
+  - [11.2. Redes para Datos Secuenciales (RNNs)](#102-redes-para-datos-secuenciales-rnns)
+  - [11.3. Redes para Visión por Computadora](#103-redes-para-visión-por-computadora)
+  - [11.4. Aprendizaje en Secuencia y Lenguaje](#104-aprendizaje-en-secuencia-y-lenguaje)
+  - [11.5. Deep Reinforcement Learning](#105-deep-reinforcement-learning)
+  - [11.6. Modelos Generativos](#106-modelos-generativos)
+  - [11.7. Métricas de Evaluación en Deep Learning](#107-métricas-de-evaluación-en-deep-learning)
+  - [11.8. Optimización y Regularización](#108-optimizacion-y-regularización)
+  - [11.9. Algoritmos y Frameworks de Deep Learning](#109-algoritmos-y-frameworks-de-deep-learning)
+- [12. NLP y Large Language Models](#11-nlp-y-large-language-models)
+  - [12.1. Introducción a NLP y LLMs](#111-introducción-a-nlp-y-llms)
+  - [12.2. Frameworks a NLP y LLMs](#112-frameworks-a-nlp-y-llms)
+- [13. Frameworks de NLP, y Large Language Models](#12-frameworks-de-nlp-y-large-language-models)
+- [14. Servicios de AI en AWS](#13-servicios-de-ai-en-aws)
+- [15. Frameworks de Automatización](#13-frameworks-de-automatizacion)
+- [16. Evaluación e Interpretabilidad de Modelos](#14-evaluación-e-interpretabilidad-de-modelos)
+- [17. Despliegue](#15-despliegue)
+- [18. Orquestación](#16-orquestación)
+- [19. Monitoreo](#17-monitoreo)
 
 344 Temas - 64 Categorias
-
 
 
 ---
@@ -305,10 +304,59 @@ Son matemática aplicada.
 ---
 
 
-## 6. Data Engineer
+## 6. Fundamentos Matemáticos
 
 
-### 6.1. Bases de Datos
+### 6.1 Fundamentos de probabilidad
+
+- Variables aleatorias e independencia estadística: Una variable aleatoria asigna valores a resultados de un experimento. La independencia significa que conocer una no cambia la probabilidad de la otra 
+
+- Momentos estadísticos y regresiones de Poisson: Los momentos (media, varianza, etc.) caracterizan distribuciones; la regresión de Poisson modela recuentos como función de variables explicativas.
+
+- Ley de los grandes números y Teorema límite central: Con suficientes datos, la media muestral se acerca a la real; la suma de variables independientes converge a una distribución normal.
+
+- Test estadísticos: Métodos que contrastan hipótesis usando datos y distribuciones de probabilidad.
+
+- Cadenas de Markov / PageRank: Proceso donde cada estado depende solo del anterior. PageRank estima la “importancia” de páginas como estado estacionario 
+
+
+### 6.2 Álgebra lineal
+
+- Sistemas de ecuaciones lineales: Conjuntos de ecuaciones que pueden resolverse con matrices o determinantes.
+
+- Similitud del coseno y geometría lineal: Medida de semejanza entre vectores por el ángulo entre ellos.
+
+- Análisis de componentes principales: Reduce dimensiones encontrando direcciones de máxima varianza.
+
+- Descomposición en valores singulares: Factoriza una matriz en U·Σ·V* para reducir ruido o comprimir datos 
+
+- Auto-vectores y auto-valores: Vectores que solo cambian de escala por una matriz; valores que indican esa escala.
+
+- Álgebra lineal numérica: Métodos computacionales para ecuaciones, descomposición y valores propios.
+
+
+### 6.3 Cálculo y Optimización
+
+- Optimización lineal y método simplex: Maximiza/minimiza una función lineal con restricciones lineales usando algoritmos tipo simplex.
+
+- Derivadas, Método de Cauchy y Convexidad: Derivadas informan sobre pendientes; optimización para funciones convexas garantiza mínimos globales.
+
+- Gradient Boosting & SGD: Métodos iterativos que ajustan modelos mejorando errores previos o actualizan parámetros por gradiente.
+
+- Back-propagation y redes profundas: Cálculo eficiente de gradientes para entrenar redes neuronales profundas.
+
+- Programación dinámica y refuerzo: Métodos que descomponen problemas en subproblemas; en refuerzo maximizan recompensas acumuladas.
+
+- Teorema de Policy Gradient: Establece cómo estimar el gradiente de la recompensa esperada para mejorar políticas en aprendizaje por refuerzo
+
+
+---
+
+
+## 7. Data Engineer
+
+
+### 7.1. Bases de Datos
 
 -   Excel, CSV, JSON: Formatos de archivo para datos estructurados.
 
@@ -323,7 +371,7 @@ Son matemática aplicada.
 -   Joins: Operaciones en bases de datos que combinan filas de dos o más tablas basadas en columnas relacionadas, como inner join, left join, etc. 
 
 
-### 6.2. Infraestructura, y Plataformas 
+### 7.2. Infraestructura, y Plataformas 
 
 -   Big Data: Conjunto de tecnologías y prácticas para almacenar y procesar volúmenes masivos de datos (las “3 V”: volumen, velocidad y variedad).sis de grandes volúmenes de datos de forma rápida.calables de forma autónoma.
 
@@ -338,7 +386,7 @@ Son matemática aplicada.
 -   PySpark: Biblioteca de Python que permite el procesamiento distribuido de datos a gran escala utilizando Apache Spark, facilitando el manejo de Big Data. 
 
 
-### 6.3. Arquitecturas de Almacenamiento de Datos
+### 7.3. Arquitecturas de Almacenamiento de Datos
 
 -   Data Set: Colección organizada de datos, generalmente en forma de tablas, utilizada para análisis, entrenamiento de modelos o visualización. 
 
@@ -367,7 +415,7 @@ Son matemática aplicada.
 -   RDD (Resilient Distributed Dataset): Estructura de datos fundamental en Apache Spark que permite el procesamiento paralelo y tolerante a fallos de grandes volúmenes de datos en clústeres.
 
 
-### 6.4. Preparación de Datos e Ingeniería de Características
+### 7.4. Preparación de Datos e Ingeniería de Características
 
 -   Modelado de Datos y Arquitecturas ETL/SSRS/SSIS/SSAS: Proお客様ceso de diseñar estructuras de datos y flujos de trabajo para la extracción (ETL), reporting (SSRS), integración (SSIS) y análisis (SSAS) en entornos de Business Intelligence.
 
@@ -380,7 +428,7 @@ Son matemática aplicada.
 -   Chunking: Técnica de NLP para agrupar palabras en frases correlacionadas, facilitando análisis.
 
 
-### 6.5. Metodologías y Procesos de Datos
+### 7.5. Metodologías y Procesos de Datos
 
 -   CRISP-DM: Metodología estándar para proyectos de Data Science que define fases: comprensión del negocio, de los datos, preparación, modelado, evaluación y despliegue.
 
@@ -391,7 +439,7 @@ Son matemática aplicada.
 -   ELT (Extract, Load, Transform): Variante de ETL donde la carga al repositorio ocurre antes de las transformaciones, aprovechando potentes motores de bases de datos.
 
 
-### 6.6. Ingeniería, Orquestación y Gobernanza de Datos
+### 7.6. Ingeniería, Orquestación y Gobernanza de Datos
 
 -   Versionado de Datos (DVC): Control de versiones de datasets y transformaciones.
 
@@ -417,10 +465,10 @@ Son matemática aplicada.
 ---
 
 
-## 7. Data Analysis 
+## 8. Data Analysis 
 
 
-### 7.1. Métricas de Rendimiento
+### 8.1. Métricas de Rendimiento
 
 -   KPI (Key Performance Indicator): Métrica clave que cuantifica el éxito de un proceso o proyecto respecto a sus objetivos.
 
@@ -455,7 +503,7 @@ Son matemática aplicada.
 -   FPR (Tasa de Falsos Positivos): Proporción de casos negativos reales incorrectamente clasificados como positivos por el modelo.
 
 
-### 7.2. Evaluación y Validación de Modelos
+### 8.2. Evaluación y Validación de Modelos
 
 -   Model Evaluation: Conjunto de métricas y técnicas para medir la efectividad de un modelo en datos de prueba.
 
@@ -474,7 +522,7 @@ Son matemática aplicada.
 -   Curva ROC: Gráfico que muestra la relación entre la tasa de verdaderos positivos (TPR) y la tasa de falsos positivos (FPR) para evaluar el rendimiento de un clasificador.
 
 
-### 7.3. Análisis Exploratorio de Datos (EDA)
+### 8.3. Análisis Exploratorio de Datos (EDA)
 
 -   EDA (Exploratory Data Analysis): Proceso iterativo de entender la estructura, detectar anomalías y formular hipótesis.
 
@@ -495,7 +543,7 @@ Son matemática aplicada.
 -   Correlación: Medida estadística que indica el grado de relación lineal entre dos variables, oscilando entre -1 (correlación negativa perfecta) y 1 (correlación positiva perfecta). 
 
 
-### 7.4. Preprocesamiento y Limpieza de Datos
+### 8.4. Preprocesamiento y Limpieza de Datos
 
 -   Data Cleaning: Corrección o eliminación de registros erróneos o duplicados.
 
@@ -512,7 +560,7 @@ Son matemática aplicada.
 -   Feature Selection: Filter Methods (chi‑cuadrado, ANOVA), Wrapper Methods (RFE), Embedded Methods (Lasso)
 
 
-### 7.5. Visualización de Resultados
+### 8.5. Visualización de Resultados
 
 -   Dashboard: Panel interactivo que agrupa gráficas y métricas clave.
 
@@ -531,7 +579,7 @@ Son matemática aplicada.
 -   Waterfall Chart: Desglose acumulativo de valores (e.g. análisis financiero).
 
 
-### 7.6. Procesos y Herramientas
+### 8.6. Procesos y Herramientas
 
 -   ETL (Extract, Transform, Load): Flujo para extraer datos, transformarlos y cargarlos en un almacén.
 
@@ -548,7 +596,7 @@ Son matemática aplicada.
 -   Data Quality: Conjuntos de reglas y métricas para asegurar precisión, completitud y consistencia.
 
 
-### 7.7. Reporting y Comunicación
+### 8.7. Reporting y Comunicación
 
 -   Storytelling con Datos: Técnica de narración que usa visualizaciones y hallazgos para transmitir insights.
 
@@ -562,10 +610,10 @@ Son matemática aplicada.
 ---
 
 
-## 8. Data Science
+## 9. Data Science
 
 
-### 8.1. Modelos de Regresión y Técnicas Paramétricas
+### 9.1. Modelos de Regresión y Técnicas Paramétricas
 
 -   Regresión Lineal: Técnica estadística que modela la relación entre una variable dependiente continua y una o más variables independientes, ajustando una recta.
 
@@ -580,7 +628,7 @@ Son matemática aplicada.
 -   Ordinal Regression: Variante de regresión logística para variables dependientes ordinales.
 
 
-### 8.2. Métodos Bayesianos y Probabilísticos
+### 9.2. Métodos Bayesianos y Probabilísticos
 
 -   Bayesian Methods: Técnicas estadísticas que aplican el teorema de Bayes para actualizar la probabilidad de una hipótesis a medida que se obtienen más datos.
 
@@ -589,14 +637,14 @@ Son matemática aplicada.
 -   Bayesian Optimization: Técnica de optimización de hiperparámetros basada en modelos probabilísticos.
 
 
-### 8.3. Técnicas de Optimización y Análisis Numérico
+### 9.3. Técnicas de Optimización y Análisis Numérico
 
 -   Programación Lineal: Técnica de optimización matemática para maximizar o minimizar una función lineal sujeta a restricciones lineales.
 
 -   Monte Carlo Simulation: Método estadístico para estimar resultados a través de múltiples simulaciones aleatorias.
 
 
-### 8.4. Técnicas de Remuestreo y Reducción de Dimensionalidad
+### 9.4. Técnicas de Remuestreo y Reducción de Dimensionalidad
 
 -   Bootstrapping: Método de remuestreo con reemplazo para estimar la distribución de una estadística sin asumir un modelo paramétrico.
 
@@ -607,7 +655,7 @@ Son matemática aplicada.
 -   Linear Discriminant Analysis (LDA): Técnica para clasificación y reducción de dimensionalidad que maximiza la separación entre clases.
 
 
-### 8.5. Árboles, Ensambles y Métodos Avanzados de Clasificación
+### 9.5. Árboles, Ensambles y Métodos Avanzados de Clasificación
 
 -   CatBoost: Algoritmo de gradient boosting optimizado para manejar variables categóricas sin necesidad de codificación previa.
 
@@ -620,7 +668,7 @@ Son matemática aplicada.
 -   Quadratic Discriminant Analysis (QDA): Clasificador que modela cada clase con su propia matriz de covarianza.
 
 
-### 8.6. Algoritmos de Asociación y Ranking
+### 9.6. Algoritmos de Asociación y Ranking
 
 -   Apriori Algorithm: Algoritmo de minería de reglas de asociación usado en análisis de mercado o cestas de compra.
 
@@ -629,7 +677,7 @@ Son matemática aplicada.
 -   PageRank: Algoritmo desarrollado por Google para clasificar páginas web basado en enlaces entrantes.
 
 
-### 8.7. Validación, Generalización y Ensambles
+### 9.7. Validación, Generalización y Ensambles
 
 -   Ensemble Stacking: Técnica que combina varios modelos base utilizando un modelo meta para hacer predicciones finales.
 
@@ -644,14 +692,14 @@ Son matemática aplicada.
 -   Model Calibration: Proceso para asegurar que las probabilidades estimadas por un modelo reflejan probabilidades reales.
 
 
-### 8.8. Cambios en los Datos y su Distribución
+### 9.8. Cambios en los Datos y su Distribución
 
 -   Feature Drift: Cambio en la distribución de una feature a lo largo del tiempo, que puede afectar el rendimiento del modelo.
 
 -   Conceptual Drift: Cambio en la relación entre variables de entrada y salida a lo largo del tiempo.
 
 
-### 8.9. Preprocesamiento y Escalado de Datos
+### 9.9. Preprocesamiento y Escalado de Datos
 
 -   Shuffling: Aleatorización de los datos antes del entrenamiento para evitar patrones no deseados en el aprendizaje.
 
@@ -665,7 +713,7 @@ Son matemática aplicada.
 ---
 
 
-## 9. Machine Learning
+## 10. Machine Learning
 
 -   Machine Learning: Rama de la IA que desarrolla algoritmos capaces de aprender a partir de datos para hacer predicciones o tomar decisiones sin ser programados de manera explícita.
 
@@ -692,7 +740,7 @@ Son matemática aplicada.
 -   Parámetro: Variable interna de un modelo que se ajusta durante el entrenamiento, como los pesos en una red neuronal. Categoría: 9. Machine Learning
 
 
-### 9.2. Transferencia y Generalización
+### 10.2. Transferencia y Generalización
 
 -   Transfer Learning: Reutilización de un modelo previamente entrenado para una nueva tarea similar con menos datos.
 
@@ -703,7 +751,7 @@ Son matemática aplicada.
 -   Meta-Learning (Aprendizaje de Aprender): Técnicas que entrenan modelos a adaptarse rápidamente a nuevas tareas con pocos datos.
 
 
-### 9.3. Algoritmos de Clasificación Supervisada
+### 10.3. Algoritmos de Clasificación Supervisada
 
 -   Árboles de Decisión: Algoritmo que modela decisiones secuenciales basadas en condiciones de atributos.
 
@@ -718,7 +766,7 @@ Son matemática aplicada.
 -   Ridge Classifier: Variante regularizada de regresión logística para evitar sobreajuste.
 
 
-### 9.4. Algoritmos de Regresión Supervisada
+### 10.4. Algoritmos de Regresión Supervisada
 
 -   Regresión Lineal: Modelo que predice un valor continuo como combinación lineal de características.
 
@@ -731,7 +779,7 @@ Son matemática aplicada.
 -   K-Nearest Neighbors (KNN): Utilizado también para regresión al promediar los valores de vecinos cercanos.
 
 
-### 9.5. Algoritmos de Agrupamiento (Clustering)
+### 10.5. Algoritmos de Agrupamiento (Clustering)
 
 -   K-Means: Divide los datos en k clústeres minimizando la distancia intra-cluster.
 
@@ -744,7 +792,7 @@ Son matemática aplicada.
 -   Gaussian Mixture Models (GMM): Modelo de mezcla de distribuciones gaussianas para clustering probabilístico.
 
 
-### 9.6. Reducción de Dimensionalidad y Visualización
+### 10.6. Reducción de Dimensionalidad y Visualización
 
 -   PCA (Análisis de Componentes Principales): Proyecta datos en componentes ortogonales que explican la mayor varianza.
 
@@ -755,7 +803,7 @@ Son matemática aplicada.
 -   Autoencoders: Redes neuronales para codificar y reconstruir entradas, común en reducción de dimensionalidad.
 
 
-### 9.7. Redes Neuronales y Deep Learning
+### 10.7. Redes Neuronales y Deep Learning
 
 -   Perceptrón: Unidad básica de una red neuronal, similar a una neurona artificial.
 
@@ -776,7 +824,7 @@ Son matemática aplicada.
 -   Tensores: Generalización de matrices a múltiples dimensiones, utilizados en deep learning para representar datos como imágenes (tensores 3D) o secuencias (tensores 2D).
 
 
-### 9.8. Modelos Generativos
+### 10.8. Modelos Generativos
 
 -   Generative Adversarial Networks (GANs): Dos redes (generador y discriminador) compiten para generar datos realistas.
 
@@ -785,7 +833,7 @@ Son matemática aplicada.
 -   LDA (Latent Dirichlet Allocation): Modelo para descubrir temas en grandes colecciones de texto.
 
 
-### 9.9. Técnicas de Ensamble y Boosting
+### 10.9. Técnicas de Ensamble y Boosting
 
 -   Gradient Boosting (incluye XGBoost, LightGBM): Ensamble secuencial donde nuevos árboles corrigen errores anteriores.
 
@@ -798,7 +846,7 @@ Son matemática aplicada.
 -   Voting Classifier: Combina predicciones mediante voto mayoritario o promedio.
 
 
-### 9.10. Técnicas de Regularización y Generalización
+### 10.10. Técnicas de Regularización y Generalización
 
 -   Dropout: Técnica en redes neuronales para evitar sobreajuste al apagar neuronas aleatoriamente durante el entrenamiento.
 
@@ -813,7 +861,7 @@ Son matemática aplicada.
 -   Overfitting: Situación en la que un modelo se ajusta excesivamente a los datos de entrenamiento, capturando ruido en lugar de patrones generales, lo que reduce su rendimiento en datos nuevos. Categoría: 9.10. Técnicas de Regularización y Generalización
 
 
-### 9.11. Evaluación y Métricas
+### 10.11. Evaluación y Métricas
 
 -   Accuracy: Proporción de predicciones correctas.
 
@@ -828,7 +876,7 @@ Son matemática aplicada.
 -   Confusion Matrix: Matriz que muestra las verdaderas y falsas clasificaciones para cada clase.
 
 
-### 9.12. Sistemas de Recomendación
+### 10.12. Sistemas de Recomendación
 
 -   Filtrado Colaborativo: Usa el comportamiento de usuarios similares para recomendar elementos.
 
@@ -840,7 +888,7 @@ Son matemática aplicada.
 ---
 
 
-## 10. Deep Learning
+## 11. Deep Learning
 
 -   Deep Learning: Subcampo de Machine Learning que utiliza redes neuronales profundas para modelar datos complejos mediante múltiples capas de procesamiento.
 
@@ -857,7 +905,7 @@ Son matemática aplicada.
 -   Caching de Capas: Técnica que almacena temporalmente los resultados de capas intermedias en una red neuronal para acelerar el entrenamiento o la inferencia.
 
 
-### 10.2. Redes para Datos Secuenciales (RNNs)
+### 11.2. Redes para Datos Secuenciales (RNNs)
 
 -   RNN (Recurrent Neural Network): Red neuronal que tiene ciclos y puede retener información de estados anteriores, ideal para procesamiento de secuencias (texto, audio, series temporales).
 
@@ -868,7 +916,7 @@ Son matemática aplicada.
 -   Bidirectional RNN: RNN que procesa datos en ambas direcciones (hacia adelante y hacia atrás), mejorando el contexto aprendido.
 
 
-### 10.3. Redes para Visión por Computadora
+### 11.3. Redes para Visión por Computadora
 
 -   CNN (Convolutional Neural Networks): Arquitectura especializada para analizar datos estructurados en forma de matriz, como imágenes o secuencias. Extrae características espaciales mediante convoluciones.
 
@@ -879,7 +927,7 @@ Son matemática aplicada.
 -   Stride: Paso con el que se aplica el filtro de convolución sobre la imagen o matriz.
 
 
-### 10.4. Aprendizaje en Secuencia y Lenguaje
+### 11.4. Aprendizaje en Secuencia y Lenguaje
 
 -   Embeddings: Representación densa y continua de datos categóricos o de texto (e.g., Word2Vec, GloVe, BERT).
 
@@ -890,7 +938,7 @@ Son matemática aplicada.
 -   Transformers: Arquitectura basada en atención (no recursiva) que reemplaza RNNs para muchas tareas de NLP y visión.
 
 
-### 10.5. Deep Reinforcement Learning
+### 11.5. Deep Reinforcement Learning
 
 -   Q-Learning: Algoritmo de aprendizaje por refuerzo que busca maximizar una función de recompensa acumulada.
 
@@ -901,7 +949,7 @@ Son matemática aplicada.
 -   Actor-Critic: Método de RL que combina aprendizaje basado en políticas y en valores (dos redes: una para cada uno).
 
 
-### 10.6. Modelos Generativos
+### 11.6. Modelos Generativos
 
 -   Autoencoders: Redes entrenadas para codificar y luego decodificar datos, minimizando la diferencia entre entrada y salida. Usados para compresión, reconstrucción, reducción de dimensionalidad y detección de anomalías.
 
@@ -912,7 +960,7 @@ Son matemática aplicada.
 -   Conditional GANs: Variante de GANs donde la generación está condicionada a una etiqueta o variable.
 
 
-### 10.7. Métricas de Evaluación en Deep Learning
+### 11.7. Métricas de Evaluación en Deep Learning
 
 -   Accuracy (Exactitud): Proporción de predicciones correctas sobre el total de predicciones.
 
@@ -921,7 +969,7 @@ Son matemática aplicada.
 -   Precision / Recall / F1 Score: Métricas más informativas para problemas de clasificación con clases desbalanceadas.
 
 
-### 10.8. Optimización y Regularización
+### 11.8. Optimización y Regularización
 
 -   Optimizer (Optimizador): Algoritmo que ajusta los pesos de la red neuronal para minimizar la función de pérdida.
 
@@ -937,7 +985,7 @@ Son matemática aplicada.
 
 
 
-## 10.9 Algoritmos y Frameworks de Deep Learning
+## 11.9 Algoritmos y Frameworks de Deep Learning
 
 -   OpenCV: (Open Source Computer Vision Library) Una biblioteca altamente optimizada para tareas de visión de ordenador y aprendizaje automático. Se utiliza para todo, desde análisis de imagen y video hasta detección de objetos y reconocimiento facial.
 
@@ -979,10 +1027,10 @@ Son matemática aplicada.
 ---
 
 
-## 11. NLP y Large Lenguaje Models
+## 12. NLP y Large Lenguaje Models
 
 
-### 11.1. Introducción a NLP y LLMs
+### 12.1. Introducción a NLP y LLMs
 
 -   Transformer: Arquitectura basada en mecanismos de atención, pilar de los LLMs y de muchas aplicaciones en NLP y visión.
 
@@ -1026,7 +1074,7 @@ Son matemática aplicada.
 ---
 
 
-## 12. Frameworks de NLP, y Large Lenguaje Models
+## 13. Frameworks de NLP, y Large Lenguaje Models
 
 -   LlamaIndex: Se centra en conectar LLMs con fuentes de datos externas (tus datos propios). Está diseñado para la indexación y recuperación de datos eficiente para mejorar las aplicaciones LLM (a menudo utilizada con LangChain para RAG - Retrieval Augmented Generation).
 
@@ -1042,7 +1090,7 @@ Son matemática aplicada.
 ---
 
 
-## 13. Servicios de AI en AWS 
+## 14. Servicios de AI en AWS 
 
 - Amazon SageMaker: Con SageMaker, puede crear, entrenar e implementar modelos de ML para cualquier caso práctico con infraestructuras, herramientas y flujos de trabajo completamente administrados. SageMaker elimina las tareas arduas de cada paso del proceso de ML para que sea más fácil desarrollar modelos de alta calidad. SageMaker ofrece todos los componentes que se utilizan para el ML en un único conjunto de herramientas, de modo que los modelos pasan a producción más rápido, con mucho menos esfuerzo y a un costo menor.
 
@@ -1080,7 +1128,7 @@ Son matemática aplicada.
 ---
 
 
-## 14. Frameworks de Automatizacion
+## 15. Frameworks de Automatizacion
 
 -   N8N: N8N es una plataforma de automatización de flujos de trabajo de código abierto diseñada para usuarios técnicos que necesitan crear flujos personalizados y complejos. Ofrece flexibilidad gracias a su arquitectura basada en nodos y permite la auto-hospedaje, lo que da a los usuarios control total sobre sus datos e infraestructura. Es ideal para desarrolladores y organizaciones que buscan soluciones de automatización avanzadas y adaptadas.
 
@@ -1094,7 +1142,7 @@ Son matemática aplicada.
 ---
 
 
-## 15. Evaluación e Interpretabilidad de Modelos
+## 16. Evaluación e Interpretabilidad de Modelos
 
 -   BLEU (Bilingual Evaluation Understudy): Métrica para evaluar traducciones automáticas, comparando con referencias, enfocada en precisión.
 
@@ -1116,7 +1164,7 @@ Son matemática aplicada.
 ---
 
 
-## 16. Despliegue
+## 17. Despliegue
 
 -   MVP: Producto mínimo viable, versión inicial con características básicas para primeros adoptantes.
 
@@ -1128,7 +1176,7 @@ Son matemática aplicada.
 ---
 
 
-## 17. Orquestación
+## 18. Orquestación
 
 -   A/B Testing: Técnica de experimentación en la que se comparan dos versiones de un producto (A y B) para determinar cuál obtiene mejores resultados según métricas definidas.
 
@@ -1142,7 +1190,7 @@ Son matemática aplicada.
 ---
 
 
-## 18 Monitorización
+## 19 Monitorización
 
 -   Concept Drift: Cambio en la distribución subyacente de los datos o en la relación entre variables que puede degradar el rendimiento de los modelos con el tiempo.
 
