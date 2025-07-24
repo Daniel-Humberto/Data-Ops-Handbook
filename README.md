@@ -13,7 +13,7 @@
 <div align="center">
 
 ### 🎯 **Las matemáticas son el núcleo de Data Analysis, Data Science, e Inteligencia Artificial** 🎯
-
+  
 La estadística permite entender la información.  
 La probabilidad permite hacer predicciones.  
 El álgebra permite construir modelos.  
@@ -93,13 +93,16 @@ Son matemática aplicada.
   - [11.1. Introducción a NLP y LLMs](#111-introducción-a-nlp-y-llms)
   - [11.2. Frameworks a NLP y LLMs](#112-frameworks-a-nlp-y-llms)
 - [12. Frameworks de NLP, y Large Language Models](#12-frameworks-de-nlp-y-large-language-models)
-- [13. Frameworks de Automatización](#13-frameworks-de-automatizacion)
-- [14. Evaluación e Interpretabilidad de Modelos](#14-evaluación-e-interpretabilidad-de-modelos)
-- [15. Despliegue](#15-despliegue)
-- [16. Orquestación](#16-orquestación)
-- [17. Monitoreo](#17-monitoreo)
+- [13. Servicios de AI en AWS](#13-servicios-de-ai-en-aws)
+- [14. Frameworks de Automatización](#13-frameworks-de-automatizacion)
+- [15. Evaluación e Interpretabilidad de Modelos](#14-evaluación-e-interpretabilidad-de-modelos)
+- [16. Despliegue](#15-despliegue)
+- [17. Orquestación](#16-orquestación)
+- [18. Monitoreo](#17-monitoreo)
+- [19. Servicios de AI en AWS](#18-servicios-de-ai-en-aws)
 
-329 Temas - 63 Categorias
+344 Temas - 64 Categorias
+
 
 
 ---
@@ -312,6 +315,8 @@ Son matemática aplicada.
 -   Relational Databases: Bases de datos estructuradas en tablas con esquemas fijos y relaciones definidas por llaves primarias y foráneas; utilizan SQL para consultas.
 
 -   NoSQL Database: Sistema de gestión de datos no relacional, diseñado para alta escalabilidad y flexibilidad de esquemas; incluye tipos como documento, clave-valor, columna y grafo.
+
+-   Graph DataBases
 
 -   Vectorial Database: Base de datos optimizada para almacenar y buscar vectores (embeddings), facilitando búsquedas semánticas y aplicaciones de RAG.
 
@@ -987,6 +992,8 @@ Son matemática aplicada.
 
 -   SLM (Small Language Model): Modelo de lenguaje más compacto y eficiente, con menos parámetros que un LLM, diseñado para desplegarse en entornos con recursos limitados.
 
+-   VLM (Visual Language Mode):
+
 -   RAGs (Retrieval-Augmented Generation): Técnica que combina recuperación de información con generación de texto, integrando documentos relevantes al modelo de lenguaje.
 
 -   Fine Tuning: Proceso de ajustar un modelo preentrenado (p. ej., un LLM) sobre un conjunto de datos específico para mejorar su rendimiento en tareas particulares.
@@ -1035,7 +1042,45 @@ Son matemática aplicada.
 ---
 
 
-## 13. Frameworks de Automatizacion
+## 13. Servicios de AI en AWS 
+
+- Amazon SageMaker: Con SageMaker, puede crear, entrenar e implementar modelos de ML para cualquier caso práctico con infraestructuras, herramientas y flujos de trabajo completamente administrados. SageMaker elimina las tareas arduas de cada paso del proceso de ML para que sea más fácil desarrollar modelos de alta calidad. SageMaker ofrece todos los componentes que se utilizan para el ML en un único conjunto de herramientas, de modo que los modelos pasan a producción más rápido, con mucho menos esfuerzo y a un costo menor.
+
+- Amazon Comprehend utiliza el ML y el procesamiento de lenguaje natural (NLP) para ayudarlo a descubrir la información y las relaciones en sus datos no estructurados. Este servicio identifica el idioma del texto. Extrae frases clave, lugares, personas, marcas o eventos. Comprende qué tan positivo o negativo es el texto. Analiza el texto mediante la tokenización y partes del discurso. Y organiza automáticamente una recopilación de archivos de texto por tema.
+
+- Amazon Translate es un servicio de traducción automática neuronal que ofrece traducciones de idiomas rápidas, de alta calidad y asequibles. La traducción automática neuronal es una forma de automatización de la traducción de idiomas que utiliza los modelos de aprendizaje profundo para ofrecer una traducción más precisa y natural que los algoritmos de traducción basados en reglas y estadísticas tradicionales. Con Amazon Translate, puede localizar contenido, como sitios web y aplicaciones, para sus diversos usuarios, traducir grandes volúmenes de texto para su análisis e implementar de manera eficiente la comunicación multilingüe entre los usuarios.
+
+- Amazon Textract:Servicio que extrae automáticamente texto y datos de documentos escaneados. Amazon Textract va más allá del reconocimiento óptico de caracteres (OCR) y también identifica el contenido de los campos de los formularios y la información almacenada en las tablas.
+
+- Amazon Lex: es un servicio de IA completamente administrado que permite diseñar, crear, probar e implementar interfaces de conversación en cualquier aplicación mediante voz y texto. Amazon Lex ofrece las funcionalidades avanzadas de aprendizaje profundo del reconocimiento automático de voz (ASR) para convertir la voz en texto y la comprensión del lenguaje natural (NLU) para reconocer la intención del texto. Esto le permite crear aplicaciones con experiencias de usuario muy atractivas e interacciones conversacionales realistas, y crear nuevas categorías de productos. Con Amazon Lex, las mismas tecnologías de aprendizaje profundo que se usan en Amazon Alexa ahora están disponibles para cualquier desarrollador. Puede crear de manera eficiente bots conversacionales sofisticados en lenguaje natural y sistemas de respuesta de voz interactiva (IVR) basados en voz.
+
+- Amazon Polly: es un servicio que convierte el texto en un discurso realista. Amazon Polly le permite crear aplicaciones que hablan, de modo que puede crear categorías completamente nuevas de productos compatibles con la voz. Amazon Polly es un servicio de IA que utiliza tecnologías avanzadas de aprendizaje profundo para sintetizar un discurso que suena como una voz humana. Amazon Polly incluye una amplia selección de voces realistas distribuidas en docenas de idiomas, por lo que puede seleccionar la voz ideal y crear aplicaciones basadas en voz que funcionen en muchos países diferentes.
+
+- Amazon Transcribe: Servicio de reconocimiento automático de voz (ASR) que convierte automáticamente la voz en texto. El servicio puede transcribir archivos de audio almacenados en formatos comunes, como WAV y MP3, con marcas de tiempo para cada palabra, de modo que pueda buscar el texto y localizar rápidamente el audio en la fuente original. También puede enviar una transmisión de audio en directo a Amazon Transcribe y recibir una transmisión de transcripciones en tiempo real. Amazon Transcribe está diseñado para manejar una amplia gama de características acústicas y del habla, lo que incluye variaciones en el volumen, el tono y la velocidad del habla. Los clientes pueden usar Amazon Transcribe para una variedad de aplicaciones empresariales, incluidas Transcripción de llamadas de servicio al cliente basadas en voz. Generación de subtítulos en contenido de audio y video. Análisis de contenido (basados en texto) de audio y video.
+
+- Amazon Rekognition: facilita la adición de análisis de imágenes y videos a sus aplicaciones. Utiliza una tecnología de aprendizaje profundo comprobada y altamente escalable que no requiere experiencia en ML para su uso. Con Amazon Rekognition, puede identificar objetos, personas, textos, escenas y actividades en imágenes y videos, e incluso detectar contenido inapropiado. Amazon Rekognition también ofrece capacidades de análisis facial y búsqueda facial de gran precisión. Puede usarlo para detectar, analizar y comparar rostros para una amplia variedad de casos prácticos de verificación de usuarios, recuento de personas y seguridad pública.
+
+- Amazon Kendra: Servicio de búsqueda inteligente con tecnología de ML. Amazon Kendra reinventa la búsqueda empresarial para sus sitios web y aplicaciones. Sus empleados y clientes pueden encontrar cómodamente el contenido que buscan, incluso si está disperso en varias ubicaciones y repositorios de contenido dentro de su organización.
+
+- Amazon Personalize: Servicio de ML que los desarrolladores pueden usar para generar recomendaciones individualizadas para los clientes que usan sus aplicaciones.
+
+- Amazon Personalize, usted proporciona un flujo de actividad desde su aplicación (páginas vistas, registros, compras, etc.). También proporciona un inventario de los elementos que desea recomendar, como artículos, productos, videos o música. Se puede optar por dar a Amazon Personalize información demográfica adicional de los usuarios, como la edad o la ubicación geográfica. Amazon Personalize procesa y examina los datos, identifica lo que es significativo, selecciona los algoritmos correctos y entrena y optimiza un modelo de personalización a la medida de sus datos.
+
+- AWS DeepRacer: es un auto de carreras a escala 1/18 que le ofrece una forma interesante y divertida de comenzar con el aprendizaje por refuerzo (RL). El RL es una técnica avanzada de ML que adopta un enfoque muy diferente al de otros métodos de ML para los modelos de entrenamiento. Su talento especial es que aprende comportamientos muy complejos sin necesidad de datos de entrenamiento etiquetados y puede tomar decisiones a corto plazo mientras se optimiza para un objetivo a más largo plazo.
+
+- SageMaker JumpStart: lo ayuda a empezar rápidamente con el ML. Para facilitar la puesta en marcha, SageMaker JumpStart ofrece un conjunto de soluciones para los casos prácticos más comunes, que se pueden implementar fácilmente. Las soluciones son completamente personalizables y muestran el uso de arquitecturas de referencia y plantillas de AWS CloudFormation para que pueda acelerar su recorrido por el ML. SageMaker JumpStart también admite la implementación y el ajuste con un solo clic de más de 150 modelos populares de código abierto, como el procesamiento de lenguaje natural, la detección de objetos y los modelos de clasificación de imágenes.
+
+- Amazon Bedrock: Servicio completamente administrado que hace que los FM de Amazon y las principales startups de IA estén disponibles a través de una API. Con la experiencia sin servidor de Amazon Bedrock, puede empezar rápidamente, experimentar con los FM, personalizarlos de forma privada con sus propios datos e integrar e implementarlos sin problemas en sus aplicaciones de AWS.
+
+- Amazon Q: puede ayudarlo a obtener respuestas rápidas y relevantes a preguntas urgentes, resolver problemas, generar contenido y tomar medidas con los datos y la experiencia que se encuentran en los repositorios de información, el código y los sistemas empresariales de su compañía. Al chatear con Amazon Q, le da información y consejos relevantes e inmediatos para ayudar a simplificar las tareas, acelerar la toma de decisiones y fomentar la creatividad y la innovación.
+
+- Amazon Q Developer: está diseñado para mejorar la productividad de los desarrolladores y ofrece recomendaciones de código basadas en ML para acelerar el desarrollo de aplicaciones de C#, Java, JavaScript, Python y TypeScript. El servicio se integra con varios entornos de desarrollo integrados (IDE) y ayuda a los desarrolladores a escribir código más rápido al generar funciones completas y bloques lógicos de código, que a menudo constan de más de 10 a 15 líneas de código.
+
+
+---
+
+
+## 14. Frameworks de Automatizacion
 
 -   N8N: N8N es una plataforma de automatización de flujos de trabajo de código abierto diseñada para usuarios técnicos que necesitan crear flujos personalizados y complejos. Ofrece flexibilidad gracias a su arquitectura basada en nodos y permite la auto-hospedaje, lo que da a los usuarios control total sobre sus datos e infraestructura. Es ideal para desarrolladores y organizaciones que buscan soluciones de automatización avanzadas y adaptadas.
 
@@ -1049,7 +1094,7 @@ Son matemática aplicada.
 ---
 
 
-## 14. Evaluación e Interpretabilidad de Modelos
+## 15. Evaluación e Interpretabilidad de Modelos
 
 -   BLEU (Bilingual Evaluation Understudy): Métrica para evaluar traducciones automáticas, comparando con referencias, enfocada en precisión.
 
@@ -1071,7 +1116,7 @@ Son matemática aplicada.
 ---
 
 
-## 15. Despliegue
+## 16. Despliegue
 
 -   MVP: Producto mínimo viable, versión inicial con características básicas para primeros adoptantes.
 
@@ -1083,7 +1128,7 @@ Son matemática aplicada.
 ---
 
 
-## 16. Orquestación
+## 17. Orquestación
 
 -   A/B Testing: Técnica de experimentación en la que se comparan dos versiones de un producto (A y B) para determinar cuál obtiene mejores resultados según métricas definidas.
 
@@ -1097,10 +1142,13 @@ Son matemática aplicada.
 ---
 
 
-## 17 Monitorización
+## 18 Monitorización
 
 -   Concept Drift: Cambio en la distribución subyacente de los datos o en la relación entre variables que puede degradar el rendimiento de los modelos con el tiempo.
 
 -   Model Drift Detection: Monitoreo continuo que identifica cuándo un modelo de ML deja de ser fiable debido a cambios en los datos o en el entorno.
 
 -   Model Monitoring: Supervisión en producción de métricas de rendimiento, latencia, uso de recursos y sesgos de los modelos de IA.
+
+
+---
