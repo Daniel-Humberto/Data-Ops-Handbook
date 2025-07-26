@@ -1,5 +1,6 @@
 # Handbook de DevOps & DataOps & MLOps & GenAIOps e Inteligencia Artificial
 
+
 <p align="center">
   <img src="Imagenes/1.png" alt="Visual de Matemáticas en IA, Data y Ops"
        style="max-width: 90%; height: auto; border-radius: 12px; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);">
